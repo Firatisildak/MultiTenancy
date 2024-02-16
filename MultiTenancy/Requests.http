@@ -1,0 +1,20 @@
+@host = https://localhost:7014
+
+GET {{host}}/api/products
+tenant:  devcreed
+###
+GET {{host}}/api/products/{id:int}?id=0
+tenant:  devcreed
+
+###
+
+POST {{host}}/api/products
+tenant:  devcreed
+Content-Type: application/json
+
+{
+  "name": "Product 1",
+  "description": "My first product",
+  "rate":5
+}
+

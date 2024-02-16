@@ -10,7 +10,7 @@ namespace MultiTenancy.Data
         public ApplicationDbContext(DbContextOptions options, ITenantService tenantService) : base(options)
         {
             _tenantService = tenantService;
-            TenantId = _tenantService.GetCurrentTenant()!.TId;
+            TenantId = _tenantService.GetCurrentTenant()?.TId;
         }
         public DbSet<Product> Products { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)

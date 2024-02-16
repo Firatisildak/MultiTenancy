@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 builder.Services.AddScoped<ITenantService, TenantService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.Configure<TenantSettings>(builder.Configuration.GetSection(nameof(TenantSettings)));
 TenantSettings options = new();
 builder.Configuration.GetSection(nameof(TenantSettings)).Bind(options);
