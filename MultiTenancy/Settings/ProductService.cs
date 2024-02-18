@@ -24,9 +24,9 @@ namespace MultiTenancy.Settings
             return await _context.Products.ToListAsync();
         }
 
-        public Task<Product?> GetByIdAsync(int id)
+        public async Task<Product?> GetByIdAsync(int id)
         {
-            return _context.Products.FindAsync(id);
+            return await _context.Products.FindAsync(id);
         }
     }
 }
