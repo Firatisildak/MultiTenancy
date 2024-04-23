@@ -1,6 +1,6 @@
 # ENGLISH/TÜRKÇE
 
-# .NET Project Utilizing Multi-Tenancy Structure
+## .NET Project Utilizing Multi-Tenancy Structure
 
 This project is an application developed using the .NET platform and embracing the Multi-Tenancy structure. The application is designed to serve multiple customers using the same infrastructure. Data isolation is achieved by using a separate database for each customer.
 
@@ -41,7 +41,7 @@ This project serves as an example for applications embracing the Multi-Tenancy s
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Multi-Tenancy Yapısını Kullanan .NET Projesi
+## Multi-Tenancy Yapısını Kullanan .NET Projesi
 
 Bu proje, .NET platformu kullanılarak geliştirilmiş ve Multi-Tenancy yapısını benimseyen bir uygulamadır. Uygulama, aynı altyapıyı kullanarak birden fazla müşteriye hizmet vermek üzere tasarlanmıştır. Her müşteri için ayrı bir veritabanı kullanılarak veri izolasyonu sağlanmıştır.
 
